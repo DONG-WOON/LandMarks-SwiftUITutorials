@@ -56,9 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				72D443F12986C36C004D01E6 /* LandMarks_SwiftUITutorialsApp.swift */,
-				72D443F32986C36C004D01E6 /* ContentView.swift */,
-				72D443FF29874E68004D01E6 /* CircleImage.swift */,
-				72D44401298782F7004D01E6 /* MapView.swift */,
+				72D44404298796D1004D01E6 /* Model */,
+				72D44405298796E9004D01E6 /* Resources */,
+				72D44403298796C7004D01E6 /* Views */,
 				72D443F52986C36E004D01E6 /* Assets.xcassets */,
 				72D443F72986C36E004D01E6 /* Preview Content */,
 			);
@@ -71,6 +71,30 @@
 				72D443F82986C36E004D01E6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		72D44403298796C7004D01E6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				72D443F32986C36C004D01E6 /* ContentView.swift */,
+				72D443FF29874E68004D01E6 /* CircleImage.swift */,
+				72D44401298782F7004D01E6 /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		72D44404298796D1004D01E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		72D44405298796E9004D01E6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
